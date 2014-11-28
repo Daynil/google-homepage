@@ -1,13 +1,10 @@
 #header {
+	position: absolute;
 	width: 100%;
-	height: 60px;
-	padding-top: -10px;
+	height: 70px;
 	background-color: #edede9;
-}
-
-#header_wrap {
-	position: relative;
 	top: -10px;
+	right: 0px;
 }
 
 #header_l {
@@ -17,6 +14,7 @@
 #header_r {
 	float: right;
 	margin-right: 15px;
+	vertical-align: middle;
 }
 
 #header p {
@@ -104,10 +102,11 @@
 }
 
 #topNav {
-	float: left;
 	width: 100%;
 	border-bottom: 1px solid #ebebeb;
+	margin-top: 80px;
 	padding-bottom: 22px;
+
 }
 
 #topNavWrapper {
@@ -120,13 +119,13 @@
 }
 
 #resultStats {
-	float: left;
-	width: 75%;
+	width: 25%;
 	color: #808080;
-	padding-left: 125px;
-	padding-top: 10px;
 	font-size: small;
 	font-family: arial;
+	position: relative;
+	top: 15px;
+	left: 130px;
 }
 
 #moreArrow {
@@ -153,11 +152,10 @@ div #first {
 }
 
 #main {
-	float: left;
-	padding-left: 125px;
-	padding-top: 20px;
+	position:absolute;
+	top: -30px;
+	padding-left: 130px;
 	width: 800px;
-	margin: 0 0 0 0;
 }
 
 div .mainLink {
@@ -194,25 +192,31 @@ div .mainLink {
 	color: #808080;
 }
 
-html, body {
+html {
 	margin: 0;
 	padding: 0;
+	min-height: 100%;
 }
 
-#outerBodyWrapper {
-	width: 100%;
-	margin-bottom: -55px;
+body {
+	margin: 0;
+	min-height: 100%;
+	padding-bottom: 52px;
 }
 
 #bodyWrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
-	padding-bottom: 55px;
+	min-height: 100%;
 }
 
 #footer {
-	clear: both;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 	width: 100%;
-	height: 55px;
 	background-color: #edede9;
 }
 
